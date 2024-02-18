@@ -29,3 +29,22 @@ console.log(hexToAscii("3132"));
 Same as 18.
 console.log(checkStrEndsWith("Chinmay", "may"));
 Same as 19.
+console.log(removeNonAsciiStr("éàöñPHP-MySQLéàöñ"));
+console.log(stringToTitleCase("chinmay karmokar and tanmoy karmokar."));
+
+console.log(removeHTMLXMLTags(`<p><bold>Chinmay</bold></p>`));
+console.log(zeroFilledValue(18, 5, "-"));
+console.log(compareStrings("Chinmay", "chINMAy"));
+console.log(searchStrings("Chinmay Madhusudan Karmokar", "cHiNmAy"));
+console.log(unCapitalizeFirstLetter("Chinmay Karmokar"));
+console.log(unCapitalizeFirstLetterEachWord("Chinmay Madhusudan Karmokar"));
+console.log(capitalizeStr("Chinmay Karmokar"));
+console.log(uncapitalizeStr("CHINMAY KARMOKAR"));
+console.log(checkIfCharUppercase("Chinmay", 0));
+console.log(checkIfCharLowerCase("Chinmay", 2));
+Same as 15.
+console.log(stringStartsWith("Chinmay", "Ch"));
+console.log(stringEndsWith("Chinmay", "Ch"));
+
+console.log(generateAlphanumericStr(15));
+console.log(checkPalindrome("$%^#*#civ&^*$#%^&$ic"));
